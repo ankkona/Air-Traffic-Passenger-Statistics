@@ -28,11 +28,13 @@ Source : <a href ="https://catalog.data.gov/dataset/air-traffic-passenger-statis
 
 ## 🔍 Key Insights
 
-* Passenger traffic shows **clear seasonality**, with peak volumes during specific months.
-* **Significant decline** in passenger numbers is observed during **COVID years (2020–2021)**, followed by gradual recovery.
-* **International passengers form a smaller but strategically important share**, indicating higher revenue and operational complexity.
-* A small number of airlines contribute a **disproportionately large share** of total passenger traffic.
-* YoY growth trends are **volatile**, highlighting sensitivity to external events and demand fluctuations.
+* Passenger traffic has not grown consistently over time. Total passenger numbers increased in some years, but dropped sharply during 2020–2021 due to COVID, followed by a gradual recovery in later years.
+* YoY % clearly highlights years of decline during COVID and strong rebound growth afterward, proving that passenger traffic is highly sensitive to external events.
+* Domestic travel contributes the majority of passenger volume, while International passengers form a smaller but important share.
+* Passenger traffic follows clear monthly seasonality. Certain months consistently show higher passenger volumes, indicating peak travel seasons, while others remain comparatively low.
+* The Top 5 airlines account for a large portion of total passengers, showing that traffic is concentrated among key carriers.
+* COVID caused a clear structural break in passenger trends. Passenger volumes in 2020 and 2021 dropped significantly compared to previous years, making the COVID impact visible even without additional filters.
+* Enplaned passengers form the largest passenger activity. Boarding passengers contribute the highest share, followed by deplaned passengers, while transit passengers form a relatively small portion.
 
 ## Assumptions
 
@@ -43,10 +45,10 @@ Source : <a href ="https://catalog.data.gov/dataset/air-traffic-passenger-statis
 
 ## Limitations
 
-* Dataset does not include **revenue, ticket price, or capacity data**, limiting financial insights.
-* No demographic or route-level data (origin–destination pairs).
-* YoY analysis for partial years may be less reliable due to missing prior-period data.
-
+* No ticket price or revenue data (so financial analysis is not possible).
+* No route or city-pair information.
+* YoY values may not appear for months where previous-year data is missing.
+  
 ## Expected Business Impact
 
 * Helps airport management **monitor demand trends** and plan capacity.
