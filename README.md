@@ -3,9 +3,8 @@
 This project analyzes **air traffic passenger data** to uncover trends in passenger volume, growth patterns, airline contribution, and travel behavior over time.
 The goal is to simulate a **real-world airport analytics dashboard** using **Microsoft Excel**, focusing on **clean data modeling, KPI design, and business storytelling**, not just visuals.
 
-
 ## Dataset
-Source : <a href ="https://catalog.data.gov/dataset/air-traffic-passenger-statistics"> Real data from data.gov </a>
+Source : <a href ="https://catalog.data.gov/dataset/air-traffic-passenger-statistics"> Publicly available air traffic passenger data sourced from data.gov</a>
 
 ## Tools & Techniques Used
 
@@ -36,13 +35,6 @@ Source : <a href ="https://catalog.data.gov/dataset/air-traffic-passenger-statis
 * COVID caused a clear structural break in passenger trends. Passenger volumes in 2020 and 2021 dropped significantly compared to previous years, making the COVID impact visible even without additional filters.
 * Enplaned passengers form the largest passenger activity. Boarding passengers contribute the highest share, followed by deplaned passengers, while transit passengers form a relatively small portion.
 
-## Assumptions
-
-* Passenger count data is assumed to be **accurate and consistently recorded**.
-* Missing or zero values are treated as **true operational records**, not data errors.
-* COVID impact period is defined based on year classification, not exact dates.
-* Analysis assumes **one primary airport context**.
-
 ## Limitations
 
 * No ticket price or revenue data (so financial analysis is not possible).
@@ -64,8 +56,5 @@ Source : <a href ="https://catalog.data.gov/dataset/air-traffic-passenger-statis
 * Automate data refresh using scheduled data pipelines.
 * Add forecasting using time-series methods.
 
-## Conclusion
 
-This project demonstrates **end-to-end data analytics capability in Excel**, from raw data cleaning to advanced KPI modeling and dashboard storytelling.
-It reflects **real business constraints**, analytical thinking, and strong command of Excel beyond basic reporting.
 
