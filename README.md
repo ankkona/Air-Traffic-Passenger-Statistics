@@ -5,15 +5,16 @@ The goal is to simulate a **real-world airport analytics dashboard** using **Mic
 
 
 ## Dataset
-<a href ="https://catalog.data.gov/dataset/air-traffic-passenger-statistics"> Real data from data.gov </a>
+Source : <a href ="https://catalog.data.gov/dataset/air-traffic-passenger-statistics"> Real data from data.gov </a>
 
-## 🧰 Tools & Techniques Used
+## Tools & Techniques Used
 
 - Microsoft Excel
 - Power Query
 - Pivot Tables & Pivot Charts
 - Excel Data Model
 - DAX Measures
+- Slicers
 
 ## Key Business Questions 
 
@@ -33,7 +34,7 @@ The goal is to simulate a **real-world airport analytics dashboard** using **Mic
 * A small number of airlines contribute a **disproportionately large share** of total passenger traffic.
 * YoY growth trends are **volatile**, highlighting sensitivity to external events and demand fluctuations.
 
-## ⚠️ Assumptions
+## Assumptions
 
 * Passenger count data is assumed to be **accurate and consistently recorded**.
 * Missing or zero values are treated as **true operational records**, not data errors.
@@ -45,8 +46,6 @@ The goal is to simulate a **real-world airport analytics dashboard** using **Mic
 * Dataset does not include **revenue, ticket price, or capacity data**, limiting financial insights.
 * No demographic or route-level data (origin–destination pairs).
 * YoY analysis for partial years may be less reliable due to missing prior-period data.
-* Excel performance may degrade with significantly larger datasets.
-
 
 ## Expected Business Impact
 
