@@ -16,7 +16,7 @@ Source : <a href ="https://catalog.data.gov/dataset/air-traffic-passenger-statis
 - Slicers
 
 # Dashboard
-<img src="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Dashboard.png" width="1200"/>
+<img src="https://github.com/ankkona/Air-Traffic-Passenger-Statistics/blob/main/Dashboard.png" width="1200"/>
 
 # Key Business Questions 
 
