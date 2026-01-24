@@ -1,7 +1,7 @@
 # Air Traffic Passenger Statistics
 
-This project analyzes **air traffic passenger data** to uncover trends in passenger volume, growth patterns, airline contribution, and travel behavior over time.
-The goal is to simulate a **real-world airport analytics dashboard** using **Microsoft Excel**, focusing on **clean data modeling, KPI design, and business storytelling**, not just visuals.
+This project analyzes air traffic passenger data to uncover trends in passenger volume, growth patterns, airline contribution, and travel behavior over time.
+The goal is to simulate a real-world airport analytics dashboard using Microsoft Excel, focusing on clean data modeling, KPI design, and business storytelling, not just visuals.
 
 # Dataset
 * Source : <a href ="https://catalog.data.gov/dataset/air-traffic-passenger-statistics"> Publicly available air traffic passenger data sourced from data.gov</a>
