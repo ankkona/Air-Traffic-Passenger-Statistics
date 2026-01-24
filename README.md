@@ -5,7 +5,7 @@ The goal is to simulate a **real-world airport analytics dashboard** using **Mic
 
 # Dataset
 * Source : <a href ="https://catalog.data.gov/dataset/air-traffic-passenger-statistics"> Publicly available air traffic passenger data sourced from data.gov</a>
-* Processed Dataset: <a href ="https://github.com/ankkona/Air-Traffic-Passenger-Statistics/blob/main/Air%20Traffic%20Passenger%20Statistics.xlsx"> Air Traffic Passenger Statistics Dataset</a>
+* Processed Dataset: <a href ="https://github.com/ankkona/Air-Traffic-Passenger-Statistics/blob/main/Air%20Traffic%20Passenger%20Statistics.xlsx"> Air Traffic Passenger Statistics – Cleaned & Modeled Excel Dataset</a>
 
 # Tools & Techniques Used
 
@@ -15,6 +15,13 @@ The goal is to simulate a **real-world airport analytics dashboard** using **Mic
 - Excel Data Model
 - DAX Measures
 - Slicers
+
+# What I Worked On
+
+- Cleaned and transformed raw data using Power Query.
+- Built an Excel data model and created calculated measures using DAX.
+- Designed KPIs such as Total Passengers and Year-over-Year growth.
+- Created an interactive dashboard using pivot charts and slicers.
 
 # Dashboard
 <img src="https://github.com/ankkona/Air-Traffic-Passenger-Statistics/blob/main/Dashboard.png" width="1200"/>
@@ -31,13 +38,13 @@ The goal is to simulate a **real-world airport analytics dashboard** using **Mic
 
 # Key Insights
 
-* Passenger traffic has not grown consistently over time. Total passenger numbers increased in some years, but dropped sharply during 2020–2021 due to COVID, followed by a gradual recovery in later years.
-* YoY % clearly highlights years of decline during COVID and strong rebound growth afterward, proving that passenger traffic is highly sensitive to external events.
-* Domestic travel contributes the majority of passenger volume, while International passengers form a smaller but important share.
-* Passenger traffic follows clear monthly seasonality. Certain months consistently show higher passenger volumes, indicating peak travel seasons, while others remain comparatively low.
-* The Top 5 airlines account for a large portion of total passengers, showing that traffic is concentrated among key carriers.
-* COVID caused a clear structural break in passenger trends. Passenger volumes in 2020 and 2021 dropped significantly compared to previous years, making the COVID impact visible even without additional filters.
-* Enplaned passengers form the largest passenger activity. Boarding passengers contribute the highest share, followed by deplaned passengers, while transit passengers form a relatively small portion.
+* Passenger traffic does not grow steadily over time. While some years show growth, total passenger volume dropped sharply in 2020–2021 due to COVID, followed by gradual recovery in later years.
+* Year-over-Year (YoY %) analysis clearly highlights the sharp decline during COVID years and the strong rebound afterward, showing that air travel demand is highly sensitive to external events.
+* Domestic passengers make up the majority of total traffic, while International passengers form a smaller but strategically important segment.
+* Passenger traffic shows clear monthly seasonality. Certain months consistently experience higher volumes, indicating peak travel periods.
+* The Top 5 airlines contribute a large share of total passengers, suggesting that airport traffic is concentrated among a few major carriers.
+* COVID created a visible break in passenger trends. The impact is evident directly from yearly passenger data without requiring additional filters.
+* Among passenger activities, Enplaned (boarding) passengers form the largest share, followed by Deplaned passengers, while Transit passengers account for a much smaller portion.
 
 # Limitations
 
@@ -47,10 +54,10 @@ The goal is to simulate a **real-world airport analytics dashboard** using **Mic
   
 # Expected Business Impact
 
-* Helps airport management **monitor demand trends** and plan capacity.
-* Supports **airline partnership and negotiation decisions**.
-* Enables identification of **seasonal peaks** for staffing and resource planning.
-* Demonstrates a scalable analytics framework adaptable to Power BI or SQL-based pipelines.
+* Helps airport authorities understand passenger demand trends over time.
+* Supports planning for staffing, infrastructure, and peak travel periods.
+* Provides insights into airline concentration and passenger composition.
+* Demonstrates how Excel can be used for structured data analysis and KPI reporting.
 
 # Future Improvements
 
