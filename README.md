@@ -1,42 +1,17 @@
 # Air Traffic Passenger Statistics
 
-## 📌 Project Overview
-
 This project analyzes **air traffic passenger data** to uncover trends in passenger volume, growth patterns, airline contribution, and travel behavior over time.
 The goal is to simulate a **real-world airport analytics dashboard** using **Microsoft Excel**, focusing on **clean data modeling, KPI design, and business storytelling**, not just visuals.
 
-The dashboard is fully interactive with slicers and is designed from the perspective of a **business analyst supporting airport operations and planning teams**.
-
----
-
 ## 🧰 Tools & Techniques Used
 
-* **Microsoft Excel**
-* **Power Query**
+- Microsoft Excel
+- Power Query
+- Pivot Tables & Pivot Charts
+- Excel Data Model
+- DAX Measures
 
-  * Data cleaning
-  * Data type standardization
-  * Feature engineering (Year, Month, COVID period classification)
-* **Pivot Tables & Pivot Charts**
-* **Excel Data Model**
-* **DAX Measures**
-
-  * Total Passengers
-  * Year-over-Year (YoY %) Growth
-  * International Passenger Share (%)
-* **Advanced Dashboard Techniques**
-
-  * Disconnected pivots for YoY stability
-  * Helper tables for combo charts
-  * Interactive slicers
-  * KPI cards
-* **Conditional Formatting**
-
-  * Heatmaps for seasonality analysis
-
----
-
-## 📊 Key Business Questions Answered
+## Key Business Questions 
 
 1. **How has total passenger traffic changed over time?**
 2. **What is the Year-over-Year growth trend in passenger volume?**
