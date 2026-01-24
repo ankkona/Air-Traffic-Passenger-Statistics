@@ -3,6 +3,10 @@
 This project analyzes **air traffic passenger data** to uncover trends in passenger volume, growth patterns, airline contribution, and travel behavior over time.
 The goal is to simulate a **real-world airport analytics dashboard** using **Microsoft Excel**, focusing on **clean data modeling, KPI design, and business storytelling**, not just visuals.
 
+
+## Dataset
+<a href ="https://catalog.data.gov/dataset/air-traffic-passenger-statistics"> Real data from data.gov </a>
+
 ## 🧰 Tools & Techniques Used
 
 - Microsoft Excel
@@ -21,20 +25,6 @@ The goal is to simulate a **real-world airport analytics dashboard** using **Mic
 6. **How did passenger traffic behave during the COVID period compared to other years?**
 7. **What type of passenger flow dominates the airport (Enplaned, Deplaned, Thru/Transit)?**
 
----
-
-## 📈 Key KPIs Tracked
-
-* **Total Passengers**
-* **YoY Passenger Growth (%)**
-* **International Passenger Share (%)**
-* **Monthly Passenger Trend**
-* **Top 5 Airline Contribution**
-* **Passenger Flow Mix**
-* **Seasonality Index (Monthly Heatmap)**
-
----
-
 ## 🔍 Key Insights
 
 * Passenger traffic shows **clear seasonality**, with peak volumes during specific months.
@@ -43,17 +33,6 @@ The goal is to simulate a **real-world airport analytics dashboard** using **Mic
 * A small number of airlines contribute a **disproportionately large share** of total passenger traffic.
 * YoY growth trends are **volatile**, highlighting sensitivity to external events and demand fluctuations.
 
----
-
-## 📌 Dashboard Design Decisions
-
-* **YoY % KPI and line chart are isolated from the Year slicer** to preserve analytical correctness.
-* Monthly and yearly trends are separated to avoid over-filtering.
-* Slicers are limited to **Year and Region** to balance interactivity and interpretability.
-* Not all visuals are KPIs — supporting charts are used for context and storytelling.
-
----
-
 ## ⚠️ Assumptions
 
 * Passenger count data is assumed to be **accurate and consistently recorded**.
@@ -61,27 +40,22 @@ The goal is to simulate a **real-world airport analytics dashboard** using **Mic
 * COVID impact period is defined based on year classification, not exact dates.
 * Analysis assumes **one primary airport context**.
 
----
-
-## 🚧 Limitations
+## Limitations
 
 * Dataset does not include **revenue, ticket price, or capacity data**, limiting financial insights.
 * No demographic or route-level data (origin–destination pairs).
 * YoY analysis for partial years may be less reliable due to missing prior-period data.
 * Excel performance may degrade with significantly larger datasets.
 
----
 
-## 🚀 Expected Business Impact
+## Expected Business Impact
 
 * Helps airport management **monitor demand trends** and plan capacity.
 * Supports **airline partnership and negotiation decisions**.
 * Enables identification of **seasonal peaks** for staffing and resource planning.
 * Demonstrates a scalable analytics framework adaptable to Power BI or SQL-based pipelines.
 
----
-
-## 🔧 Future Improvements
+## Future Improvements
 
 * Migrate the model to **Power BI** for scalability.
 * Add **route-level or city-pair analysis**.
@@ -89,16 +63,8 @@ The goal is to simulate a **real-world airport analytics dashboard** using **Mic
 * Automate data refresh using scheduled data pipelines.
 * Add forecasting using time-series methods.
 
----
-
-## 🏁 Conclusion
+## Conclusion
 
 This project demonstrates **end-to-end data analytics capability in Excel**, from raw data cleaning to advanced KPI modeling and dashboard storytelling.
 It reflects **real business constraints**, analytical thinking, and strong command of Excel beyond basic reporting.
 
----
-
-📁 *This project is part of my analytics portfolio and is intended to showcase practical, job-ready Excel skills.*
-
-
-<a href ="https://catalog.data.gov/dataset/air-traffic-passenger-statistics">Real Word data< </a>
