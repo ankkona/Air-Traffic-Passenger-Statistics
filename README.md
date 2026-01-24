@@ -48,24 +48,26 @@ The goal is to simulate a **real-world airport analytics dashboard** using **Mic
 
 # Limitations
 
-* No ticket price or revenue data (so financial analysis is not possible).
-* No route or city-pair information.
-* YoY values may not appear for months where previous-year data is missing.
+* The dataset does not include ticket price or revenue information, so financial performance analysis is not possible.
+* No route-level or city-pair data is available; analysis is limited to overall airport-level trends.
+* Monthly YoY % values may not appear for months where previous-year data is missing.
+* Passenger data is aggregated, so airline-level analysis is limited to total passenger contribution only.
   
 # Expected Business Impact
 
-* Helps airport authorities understand passenger demand trends over time.
-* Supports planning for staffing, infrastructure, and peak travel periods.
-* Provides insights into airline concentration and passenger composition.
-* Demonstrates how Excel can be used for structured data analysis and KPI reporting.
+* Enables airport stakeholders to quickly understand long-term passenger growth trends and identify periods of decline or recovery.
+* Helps planners recognize seasonal travel patterns, supporting better staffing and capacity planning during peak months.
+* Provides clarity on the dominance of domestic versus international travel, helping prioritize operational focus.
+* Highlights key airlines contributing the highest passenger volumes, supporting airline relationship and planning discussions.
+* Makes the impact of external events (such as COVID-19) clearly visible, supporting risk awareness and historical comparison.
 
 # Future Improvements
 
-* Migrate the model to **Power BI** for scalability.
-* Add **route-level or city-pair analysis**.
-* Incorporate **revenue and load factor metrics**.
-* Automate data refresh using scheduled data pipelines.
-* Add forecasting using time-series methods.
+* Integrate route-level or city-pair data to enable deeper travel pattern analysis.
+* Add revenue, ticket price, or load factor data to support financial and profitability analysis.
+* Migrate the dashboard to Power BI for improved performance, scalability, and automated refresh.
+* Apply time-series forecasting to estimate future passenger demand based on historical trends.
+
 
 
 
